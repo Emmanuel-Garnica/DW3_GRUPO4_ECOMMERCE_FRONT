@@ -2,8 +2,8 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link :to="'/user/' + userId">Profile</router-link> |
-    <router-link to="/user/transactions/history">History</router-link> |
-    <router-link to="/user/transactions/create">Transactions</router-link> |
+    <!-- <router-link to="/user/transactions/history">History</router-link> | -->
+    <!-- <router-link to="/user/transactions/create">Transactions</router-link> | -->
     <button class="nav-button" @click="logout">Logout</button>
   </div>
 </template>

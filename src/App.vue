@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>Banco UN</h1>
+    <h1>ECOMMERCE</h1>
     <AppNavbar v-if="isAuth" @logout="isAuth = false"/>
   </header>
 
